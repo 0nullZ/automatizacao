@@ -1,0 +1,4 @@
+#!/bin/sh
+sudo su
+i2prouter start
+sudo service tor start
