@@ -45,6 +45,8 @@ sudo apt
 touch startup.bash
 sudo chmod +x startup.bash
 
+
+
 s.txt > startup.bash 
 mv startup.bash /etc/init.d/
 ln -s /etc/init.ne/startup.bash /etc/rc.d
