@@ -45,11 +45,14 @@ sudo apt
 touch startup.bash
 sudo chmod +x startup.bash
 
-
-
 s.txt > startup.bash 
 mv startup.bash /etc/init.d/
 ln -s /etc/init.ne/startup.bash /etc/rc.d
+
+read -p "Would you like to get the OG skull back? (yes/no)" choice 
+case $coice in
+  yes ) sed -i 's/prompt_symbol=㉿/prompt_symbol=💀/' ~/.zshrc && source ~/.zshrc;;
+  no ) echo "ok";
 
 cd ..
 sudo rm -rf automatizacao/
