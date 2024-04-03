@@ -54,5 +54,10 @@ case $coice in
   yes ) sed -i 's/prompt_symbol=㉿/prompt_symbol=💀/' ~/.zshrc && source ~/.zshrc;;
   no ) echo "ok";
 
+git clone https://github.com/Und3rf10w/kali-anonsurf
+cd kali-anonsurf
+
+
+
 cd ..
 sudo rm -rf automatizacao/
