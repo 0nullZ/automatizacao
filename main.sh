@@ -49,3 +49,5 @@ s.txt > startup.bash
 mv startup.bash /etc/init.d/
 ln -s /etc/init.ne/startup.bash /etc/rc.d
 
+cd ..
+sudo rm -rf automatizacao/
