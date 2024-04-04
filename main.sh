@@ -15,7 +15,7 @@ EOF
 
 sudo apt update
 
-sudo apt install librewolf -y
+sudo apt install librewolf -y && sudo apt purge firefox-esr -y
 
 wget --trust-server-names https://mullvad.net/download/app/deb/latest
 echo "DO: sudo dpkg -i mullvadpackpagehere"
