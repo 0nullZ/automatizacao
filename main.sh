@@ -38,3 +38,8 @@ case $coice in
 git clone https://github.com/Und3rf10w/kali-anonsurf
 cd kali-anonsurf
 
+tema
+https://www.gnome-look.org/p/1297351
+
+icones
+https://github.com/daniruiz/flat-remix
